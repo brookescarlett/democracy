@@ -35,9 +35,9 @@ const getNum = () => Math.floor(Math.random() * 5);
 
 const getDisplayColor = () => {
   const arr = [
+    styles.cyan,
     styles.violet,
     styles.alert,
-    styles.cyan,
     styles.purple,
     styles.warning,
   ];
