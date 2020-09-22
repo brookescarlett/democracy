@@ -1,8 +1,7 @@
-import Main from "./Main";
+import Main from "../components/Main";
 import styles from "../styles/Demo.module.css";
 
 // Proofread points and add bold
-// Add description and links to bidens website
 // Add place for feedback and footer
 
 export default function Home() {
