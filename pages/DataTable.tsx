@@ -1,6 +1,6 @@
-import { Text, Table, Row, Col } from "@geist-ui/react";
-import { Issues } from "./types";
-import { data } from "./data";
+import { Table, Row, Col } from "@geist-ui/react";
+import { Issues } from "../utils/types";
+import { data } from "../utils/data";
 
 function DataTable({ issue }: { issue: Issues }) {
   const renderedData = data[issue]?.federal;

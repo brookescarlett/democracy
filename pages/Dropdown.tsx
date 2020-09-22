@@ -1,5 +1,5 @@
 import { Select } from "@geist-ui/react";
-import { Issues } from "./types";
+import { Issues } from "../utils/types";
 
 interface DropdownInterface {
   selectHandler: (value: Issues) => void;

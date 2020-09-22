@@ -1,7 +1,7 @@
 import { Text, Card } from "@geist-ui/react";
 import Dropdown from "./Dropdown";
-import { Issues } from "./types";
-import { data } from "./data";
+import { Issues } from "../utils/types";
+import { data } from "../utils/data";
 import styles from "../styles/Demo.module.css";
 
 const emojiTable: Record<Issues, string> = {

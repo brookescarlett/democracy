@@ -1,7 +1,7 @@
 import { useState } from "react";
 import DataTable from "./DataTable";
 import Blurb from "./Blurb";
-import { Issues } from "./types";
+import { Issues } from "../utils/types";
 
 function Main() {
   const [issue, setIssue] = useState<Issues | null>();
