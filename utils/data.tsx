@@ -153,18 +153,9 @@ export const data = {
     federal: [
       {
         biden: (
-          <Text>
-            Biden is committed to offering specific{" "}
-            <Text b type="success">
-              tax cuts
-            </Text>{" "}
-            for major costs families face, including tax credits that help
-            working families afford:{" "}
-            <Text b type="success">
-              health insurance, child care, pay for the cost of caring for an
-              aging loved one and buy their first homes and build wealth — up to
-              $15,000.
-            </Text>
+          <Text b type="success">
+            Joe Biden will not raise taxes on anyone making less than $400,000.
+            Period.
           </Text>
         ),
 
@@ -182,9 +173,18 @@ export const data = {
       {
         biden: (
           <Text>
-            Requiring a true minimum tax on ALL foreign earnings of United
-            States companies located overseas so that we do our part to put an
-            end to the global race to the bottom that rewards global tax havens.
+            Biden laid out a comprehensive strategy to get the pandemic under
+            control and{" "}
+            <Text b type="success">
+              effectively reopen the economy
+            </Text>{" "}
+            — an approach that will both protect the health and safety of our
+            people and boost economic activity. This entails: providing state,
+            local, and tribal governments with the aid they need so educators,
+            firefighters and other essential workers aren’t being laid off,
+            extending COVID crisis unemployment insurance to help those who are
+            out of work and providing a comeback package for Main Street
+            businesses and entrepreneurs.
           </Text>
         ),
 
@@ -204,8 +204,17 @@ export const data = {
       {
         biden: (
           <Text>
-            Joe Biden will not raise taxes on anyone making less than $400,000.
-            Period.
+            Biden is committed to offering specific{" "}
+            <Text b type="success">
+              tax cuts
+            </Text>{" "}
+            for major costs families face, including tax credits that help
+            working families afford:{" "}
+            <Text b type="success">
+              health insurance, child care, pay for the cost of caring for an
+              aging loved one and buy their first homes and build wealth — up to
+              $15,000.
+            </Text>
           </Text>
         ),
 
@@ -597,14 +606,49 @@ export const data = {
       {
         biden: (
           <Text>
-            Achieve mental health parity and expand access to mental health care
+            Achieve{" "}
+            <Text b type="success">
+              mental health parity
+            </Text>{" "}
+            and expand access to mental health care
           </Text>
         ),
 
         trump: (
           <Text>
             He keeps promising his magic healthcare plan is right around the
-            corner. The truth: he has no plan.
+            corner.{" "}
+            <Text b type="error">
+              The truth: he has no plan.
+            </Text>
+          </Text>
+        ),
+      },
+      {
+        biden: (
+          <Text>
+            Biden{" "}
+            <Text b type="success">
+              will protect those with pre-existing conditions,
+            </Text>{" "}
+            as he knows there is no peace of mind if you cannot afford to care
+            for a sick child or a family member because of a pre-existing
+            condition, because you’ve reached a point where your health insurer
+            says “no more,” or because you have to make a decision between
+            putting food on the table and going to the doctor or filling a
+            prescription.
+          </Text>
+        ),
+        trump: (
+          <Text>
+            Anybody in this country{" "}
+            <Text b type="error">
+              who has had coronavirus or tests positive for antibodies has a
+              pre-existing condition.
+            </Text>{" "}
+            When Trump finally eliminates the Affordable Care Act, rates are
+            going to skyrocket, as Trump does not believe in protecting those
+            with pre-existing conditions.
           </Text>
         ),
       },

@@ -9,7 +9,7 @@ const emojiTable: Record<Issues, string> = {
   [Issues.CriminalJustice]: "⛓️",
   [Issues.Economy]: "💸",
   [Issues.Education]: "🎓",
-  [Issues.Environment]: "🌲",
+  [Issues.Environment]: "♻️",
   [Issues.GunRights]: "🔫",
   [Issues.GayRights]: "🏳️‍🌈",
   [Issues.HealthCare]: "🏥",
