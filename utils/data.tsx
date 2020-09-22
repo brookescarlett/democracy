@@ -79,7 +79,10 @@ export const data = {
             <Text b type="success">
               social services, instead of in our prisons,
             </Text>{" "}
-            connected to the help they need.
+            connected to the help they need. Making sure formerly incarcerated
+            individuals have the opportunity to be productive members of our
+            society is not only the right thing to do, it will also grow our
+            economy.
           </Text>
         ),
 
@@ -99,21 +102,46 @@ export const data = {
             <Text b type="success">
               address systemic misconduct in police departments
             </Text>{" "}
-            and prosecutors’ offices.
+            and prosecutors’ offices. Our criminal justice system cannot be just
+            unless we root out the racial, gender, and income-based disparities
+            in the system.
           </Text>
         ),
         trump: (
-          <Text>Allows corporations to profiteer off of incarceration.</Text>
+          <Text>
+            After white supremacists clashed with anti-racism protesters in
+            Charlottesville, Virginia, in 2017, Trump praised the{" "}
+            <Text b type="error">
+              “very fine people” on both sides.
+            </Text>
+          </Text>
         ),
       },
       {
         biden: (
           <Text>
-            Eliminate existing barriers preventing formerly incarcerated
-            individuals from fully participating in society.
+            Believes that no one should be incarcerated for drug use alone.
+            Instead, they should be diverted to drug courts and treatment.{" "}
+            <Text b type="success">
+              Reducing the number of incarcerated individuals will reduce
+              federal spending on incarceration.{" "}
+            </Text>
+            These savings should be reinvested in the communities impacted by
+            mass incarceration.
           </Text>
         ),
-        trump: <Text>Cut funding for transitional housing.</Text>,
+        trump: (
+          <Text>
+            Capitalizes on theme of law and order to promote fear and
+            divisiveness amongst constituents. In his first campaign for the
+            White House,{" "}
+            <Text b type="error">
+              Trump linked urban crime to illegal immigration, even though
+              studies have shown that people in the country illegally are not
+              more likely to commit crimes.
+            </Text>
+          </Text>
+        ),
       },
     ],
   },
