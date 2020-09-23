@@ -63,7 +63,7 @@ function Blurb({ issue, setIssue }) {
         <span>👋</span>, we're here to help you phone bank without fear (
         <Text b>read:</Text> feel a little more prepared to have conversations
         with voters). We've synthesized information about Biden's platform (
-        <Text b>pro-tip:</Text>it's awesome) and Trump's mishandling of
+        <Text b>pro-tip: </Text>it's awesome) and Trump's mishandling of
         everything from climate change to coronavirus. To get started, select an
         issue from the dropdown below.
       </Text>
