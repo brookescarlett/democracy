@@ -849,8 +849,9 @@ export const data = {
       {
         biden: (
           <Text>
-            Codify Roe v. Wade, and his Justice Department will do everything in
-            its power to{" "}
+            Codify Roe v. Wade (a landmark Supreme Court decision that gives
+            women the right to choose to have an abortion), and his Justice
+            Department will do everything in its power to{" "}
             <Text b type="success">
               stop the rash of state laws that so blatantly violate Roe v. Wade.
             </Text>
