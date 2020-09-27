@@ -3,7 +3,7 @@ import Main from "../components/Main";
 import styles from "../styles/Demo.module.css";
 
 export default function Home() {
-  ReactGA.initialize(process.env.gaKey);
+  ReactGA.initialize("UA-179116227-1");
 
   return (
     <div className={styles.main}>
