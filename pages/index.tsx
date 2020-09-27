@@ -1,10 +1,10 @@
+import ReactGA from "react-ga";
 import Main from "../components/Main";
 import styles from "../styles/Demo.module.css";
 
-// Proofread points and add bold
-// Add place for feedback and footer
-
 export default function Home() {
+  ReactGA.initialize(process.env.gaKey);
+
   return (
     <div className={styles.main}>
       <Main />
