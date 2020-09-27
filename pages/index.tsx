@@ -4,6 +4,7 @@ import styles from "../styles/Demo.module.css";
 
 export default function Home() {
   ReactGA.initialize(process.env.gaKey);
+  ReactGA.pageview("/");
 
   return (
     <div className={styles.main}>
