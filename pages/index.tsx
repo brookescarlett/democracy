@@ -18,7 +18,7 @@ export default function Home() {
       <Main />
       <div className={styles.footer}>
         <span>
-          We're you also disgusted by that debate? Great! You're in the right
+          Were you also disgusted by that debate? Great! You're in the right
           place. Grab him by the ballot box! Vote blue no matter who! Brooke
           loves you! Battle for the soul of the nation! Grab him by the ballot
           box! Science is real! Black lives matter! No human is illegal! Love is
