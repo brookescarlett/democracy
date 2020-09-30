@@ -1,8 +1,16 @@
+import { useRouter } from "next/router";
 import { Text, Card } from "@geist-ui/react";
 import Dropdown from "./Dropdown";
 import { Issues } from "../utils/types";
 import { data } from "../utils/data";
 import styles from "../styles/Demo.module.css";
+
+function parseIssue(issue) {
+  const string = issue
+    .replace(/([a-z0-9]|(?=[A-Z]))([A-Z])/g, "$1-$2")
+    .toLowerCase();
+  return `/issue/${string}`;
+}
 
 const emojiTable: Record<Issues, string> = {
   [Issues.Coronavirus]: "🤒",
@@ -51,7 +59,9 @@ const getDisplayColor = () => {
   return arr[num];
 };
 
-function Blurb({ issue, setIssue }) {
+function Blurb({ issue }) {
+  const router = useRouter();
+
   const welcomeText = (
     <div className={styles.welcome}>
       <Text type="secondary">
@@ -101,7 +111,7 @@ function Blurb({ issue, setIssue }) {
       <Card>
         <div className={styles.card}>
           {issue ? issueText : welcomeText}
-          <Dropdown selectHandler={(issue) => setIssue(issue)} />
+          <Dropdown selectHandler={(issue) => router.push(parseIssue(issue))} />
         </div>
       </Card>
     </div>

@@ -1,10 +1,17 @@
 import ReactGA from "react-ga";
 import Main from "../components/Main";
+import { Issues } from "../utils/types";
 import styles from "../styles/Demo.module.css";
 
 export default function Home() {
   ReactGA.initialize(process.env.gaKey);
-  ReactGA.pageview("/");
+
+  Object.values(Issues).map((issue) => {
+    const parseIssue = issue
+      .replace(/([a-z0-9]|(?=[A-Z]))([A-Z])/g, "$1-$2")
+      .toLowerCase();
+    ReactGA.pageview(`/issue/${parseIssue}`);
+  });
 
   return (
     <div className={styles.main}>
