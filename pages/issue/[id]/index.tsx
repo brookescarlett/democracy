@@ -1,9 +1,12 @@
 import { useRouter } from "next/router";
+import ReactGA from "react-ga";
 import Layout from "../../../components/Layout";
 
 const Issue = () => {
   const router = useRouter();
   const { id } = router.query;
+
+  ReactGA.pageview(`/issue/${id}`);
 
   const issue =
     typeof id === "string"
